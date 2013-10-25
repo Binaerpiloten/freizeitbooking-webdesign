@@ -49,6 +49,10 @@ code {
   margin-bottom: 15px;
 }
 
+.action-detail {
+  margin-bottom: 15px;
+}
+
 /* First level of nav */
 .bs-sidenav {
   text-shadow: 0 1px 0 #fff;
