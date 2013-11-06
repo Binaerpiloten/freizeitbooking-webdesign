@@ -23,6 +23,24 @@ body {
   background-color: #f5f5f5;
 }
 
+/* Headlines */
+h1, h2, h3, h4 {
+  font-family: 'Oranienbaum', serif;
+}
+
+h1 {
+  margin-top: 10px;
+}
+
+.liste-headline {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  background: #f7f5fa;
+  border-radius: 4px;
+}
 
 /* Custom page CSS
 -------------------------------------------------- */
@@ -44,9 +62,18 @@ code {
   font-size: 80%;
 }
 
+.lead {
+  font-size: 16px;
+}
+
 .liste-zeile {
-  border-bottom: 1px solid grey;
+  border-top: 1px solid #b9b9b9;
   margin-bottom: 15px;
+  margin-top: 5px;
+}
+
+.info-text {
+    border-top: 1px solid #b9b9b9;
 }
 
 .action-detail {
@@ -58,4 +85,9 @@ code {
   text-shadow: 0 1px 0 #fff;
   background-color: #f7f5fa;
   border-radius: 5px;
+  margin-top: 5px;
+}
+
+.sidenav {
+  padding-left: 0px;
 }
