@@ -6,6 +6,10 @@ body {
   /* The html and body elements cannot have any padding or margin. */
 }
 
+body {
+  font-size: 12px;
+}
+
 /* Wrapper for page content to push down footer */
 #wrap {
   min-height: 100%;
@@ -19,8 +23,17 @@ body {
 
 /* Set the fixed height of the footer here */
 #footer {
-  height: 60px;
-  background-color: #f5f5f5;
+  height: 120px;
+}
+
+.footer-head {
+  margin-top: 10px;
+  border-top: 4px solid #b9b9b9;
+  height: 10px;
+}
+
+.main .row {
+  margin: 0px;
 }
 
 /* Headlines */
@@ -29,17 +42,49 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-  margin-top: 10px;
+  font-size: 22px;
 }
 
-.liste-headline {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 20px;
-  background: #f7f5fa;
-  border-radius: 4px;
+h2 {
+  font-size: 18px;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+h4 {
+  font-size: 14px;
+}
+
+.container {
+  max-width: none !important;
+  width: 940px;
+}
+
+/* Logo header */
+
+.logo-container {
+  margin-top: 40px;
+}
+
+/* Navbar freizeitbooking main */
+
+.navbar-fb-main {
+  background-color: #428bca;
+  color: #ffffff;
+}
+
+.navbar-fb-main .navbar-header > a {
+  margin: 2px;
+  padding: 3px 15px 3px 15px;
+  color: #ffffff;
+}
+
+.navbar-fb-main .navbar-nav > li > a {
+  margin: 3px;
+  padding: 3px 15px 3px 15px;
+  color: #ffffff;
 }
 
 /* Custom page CSS
@@ -80,12 +125,26 @@ code {
   margin-bottom: 15px;
 }
 
-/* First level of nav */
+/* Schriftart */
+
+.font-oranienbaum {
+  font-family: 'Oranienbaum', serif;
+}
+
+/* Sidebar */
 .bs-sidenav {
   text-shadow: 0 1px 0 #fff;
-  background-color: #f7f5fa;
+  background-color: #ffffff;
   border-radius: 5px;
   margin-top: 5px;
+}
+
+.bs-sidenav > li > a {
+  padding: 3px 6px;
+}
+
+.bs-sidenav-head {
+  border-bottom: 2px solid #b9b9b9;
 }
 
 .sidenav {

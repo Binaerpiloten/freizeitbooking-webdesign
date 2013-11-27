@@ -20,77 +20,37 @@
   </head>
 
   <body>
-    <div id="wrap">
-    <!-- Fixed navbar -->
-    <div class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Freizeitbooking</a>
-        </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li><a href="#">Home</a></li>
-            <!-- Freizeit-Navigation -->
-            <li class="dropdown active">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Gokart <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="listenuebersicht.html">Würzburg</a></li>
-                <li><a href="#">Hamburg</a></li>
-                <li><a href="#">München</a></li>
-              </ul>
-            </li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Laser-Tag <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-              </ul>
-            </li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Paintball <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-              </ul>
-            </li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Squash <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-              </ul>
-            </li>
-            <!-- Freizeit-Navigation Ende -->
-        </div><!--/.nav-collapse -->
+    
+    <div class="container">
+    <!-- Logo -->
+    <div class="logo-container">
+      <div class="row">
+        <div class="logo"><img src="img/freizeitbooking-logo.png" alt="Freizeitbooking Logo" /></div>
       </div>
     </div>
 
-    <div class="container">
-
-      <div class="list-header">
-        <div class="row">
-          <img src="img/beispiel-bild.png" class="img-responsive" alt="Responsive image">
+    <!-- Static navbar -->
+      <div class="navbar navbar-fb-main navbar-default" role="navigation">
+        <div class="navbar-header pull-left">
+          <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-home"></span></a>
         </div>
-        <div class="row">
-          <div class="liste-headline">
-            <h1>Gokart Würzburg</h1>
-            <p class="lead">Gokart fahren in Würzburg am Main. Hier können Sie ihre Freizeit genießen.</p>
-          </div>
-        </div>
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Gokart</a></li>
+            <li><a href="#">Lasertag</a></li>
+            <li><a href="#">Paintball</a></li>
+            <li><a href="#">Kanu</a></li>
+          </ul>
       </div>
 
-      
+
+      <div class="main">
+
       <div class="row">
         <!-- Sidebar -->
-        <div class="col-md-3 hidden-xs sidenav">
+        <div class="col-xs-3 sidenav">
+            <div class="bs-sidenav-head font-oranienbaum">
+                <h3>Städte</h3>
+            </div>
             <div class="bs-sidenav">
                 <ul class="nav bs-sidenav">
                   <li><a href="#">Würzburg</a></li>
@@ -99,26 +59,84 @@
                   <li><a href="#">Berlin</a></li>            
                 </ul> 
             </div>
+            <div class="bs-sidetext-head font-oranienbaum">
+                <h2>Gokart Bahnen in Würzburg buchen</h2>
+            </div>
+            <div class="bs-sidetext">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint [occaecat] cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur [adipisicing] elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in [voluptate] velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
         </div>
-        <!-- End Sidebar -->
-        <div class="col-md-9">
 
+        <!-- End Sidebar -->
+        <div class="col-xs-9">
+
+          <!-- Kategorie Headline -->
+          <div class="row">
+            <div class="liste-headline">
+              <h1>Gokart Würzburg</h1>
+              <p>Gokart fahren in Würzburg am Main. Hier können Sie ihre Freizeit genießen.</p>
+            </div>
+          </div>
           <!-- Zeile -->
           <div class="row">
             <div class="liste-zeile">
               <div class="col-xs-12">
                 <h2>Gokart Bahn 1</h2>
               </div>
-              <div class="col-md-4">
+              <div class="col-xs-4">
                 <p><span alt="Kosten" class="glyphicon glyphicon-credit-card"></span> 10 Min. für 22 €<br>
                    <span alt="Kosten" class="glyphicon glyphicon-retweet"></span> 780 Meter<br>
                    <span alt="Kosten" class="glyphicon glyphicon-road"></span> Indoor 
                 </p>
               </div>
-              <div class="col-md-4">
+              <div class="col-xs-4">
                 <p>Meisterstraße 8<br>97265 Bumpelhofen</p>
               </div>
-              <div class="col-md-4">
+              <div class="col-xs-4">
+                <p><a href="detailseite.html" class="btn btn-primary btn-large">Jetzt Reservierung anfragen</a>
+              </div>
+            </div>
+          </div>
+          <!-- End Zeile -->
+
+      <!-- Zeile -->
+          <div class="row">
+            <div class="liste-zeile">
+              <div class="col-xs-12">
+                <h2>Gokart Bahn 1</h2>
+              </div>
+              <div class="col-xs-4">
+                <p><span alt="Kosten" class="glyphicon glyphicon-credit-card"></span> 10 Min. für 22 €<br>
+                   <span alt="Kosten" class="glyphicon glyphicon-retweet"></span> 780 Meter<br>
+                   <span alt="Kosten" class="glyphicon glyphicon-road"></span> Indoor 
+                </p>
+              </div>
+              <div class="col-xs-4">
+                <p>Meisterstraße 8<br>97265 Bumpelhofen</p>
+              </div>
+              <div class="col-xs-4">
+                <p><a href="detailseite.html" class="btn btn-primary btn-large">Jetzt Reservierung anfragen</a>
+              </div>
+            </div>
+          </div>
+          <!-- End Zeile -->
+
+      <!-- Zeile -->
+          <div class="row">
+            <div class="liste-zeile">
+              <div class="col-xs-12">
+                <h2>Gokart Bahn 1</h2>
+              </div>
+              <div class="col-xs-4">
+                <p><span alt="Kosten" class="glyphicon glyphicon-credit-card"></span> 10 Min. für 22 €<br>
+                   <span alt="Kosten" class="glyphicon glyphicon-retweet"></span> 780 Meter<br>
+                   <span alt="Kosten" class="glyphicon glyphicon-road"></span> Indoor 
+                </p>
+              </div>
+              <div class="col-xs-4">
+                <p>Meisterstraße 8<br>97265 Bumpelhofen</p>
+              </div>
+              <div class="col-xs-4">
                 <p><a href="detailseite.html" class="btn btn-primary btn-large">Jetzt Reservierung anfragen</a>
               </div>
             </div>
@@ -126,60 +144,64 @@
           <!-- End Zeile -->
 
           <!-- Zeile -->
-          <div class="liste-zeile row">
-            <div class="col-xs-12">
-              <h2>Gokart Bahn 2</h2>
-            </div>
-            <div class="col-md-4">
-              <p><span alt="Kosten" class="glyphicon glyphicon-credit-card"></span> 10 Min. für 22 €<br>
-                 <span alt="Kosten" class="glyphicon glyphicon-retweet"></span> 780 Meter<br>
-                 <span alt="Kosten" class="glyphicon glyphicon-road"></span> Indoor 
-              </p>
-            </div>
-            <div class="col-md-4">
-              <p>Meisterstraße 8<br>97265 Bumpelhofen</p>
-            </div>
-            <div class="col-md-4">
-              <p><a href="detailseite.html" class="btn btn-primary btn-large">Jetzt Reservierung anfragen</a>
-            </div>
-          </div>
-          <!-- End Zeile -->
-
-          <!-- Zeile -->
-          <div class="liste-zeile row">
-            <div class="col-xs-12">
-              <h2>Gokart Bahn 3</h2>
-            </div>
-            <div class="col-md-4">
-              <p><span alt="Kosten" class="glyphicon glyphicon-credit-card"></span> 10 Min. für 22 €<br>
-                 <span alt="Kosten" class="glyphicon glyphicon-retweet"></span> 780 Meter<br>
-                 <span alt="Kosten" class="glyphicon glyphicon-road"></span> Indoor 
-              </p>
-            </div>
-            <div class="col-md-4">
-              <p>Meisterstraße 8<br>97265 Bumpelhofen</p>
-            </div>
-            <div class="col-md-4">
-              <p><a href="detailseite.html" class="btn btn-primary btn-large">Jetzt Reservierung anfragen</a>
+          <div class="row">
+            <div class="liste-zeile">
+              <div class="col-xs-12">
+                <h2>Gokart Bahn 1</h2>
+              </div>
+              <div class="col-xs-4">
+                <p><span alt="Kosten" class="glyphicon glyphicon-credit-card"></span> 10 Min. für 22 €<br>
+                   <span alt="Kosten" class="glyphicon glyphicon-retweet"></span> 780 Meter<br>
+                   <span alt="Kosten" class="glyphicon glyphicon-road"></span> Indoor 
+                </p>
+              </div>
+              <div class="col-xs-4">
+                <p>Meisterstraße 8<br>97265 Bumpelhofen</p>
+              </div>
+              <div class="col-xs-4">
+                <p><a href="detailseite.html" class="btn btn-primary btn-large">Jetzt Reservierung anfragen</a>
+              </div>
             </div>
           </div>
           <!-- End Zeile -->
 
-          <!-- Info text -->
-          <div class="info-text hidden-xs">
-          <h3>Gokart Bahnen in Würzburg buchen</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint [occaecat] cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur [adipisicing] elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in [voluptate] velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </div>
         </div>       
       </div>
-
-    </div> <!-- /container -->
     </div>
+    </div> <!-- /container -->
     
     <div id="footer">
       <div class="container">
-        <p class="text-muted credit"><a href="impressum.html">Impressum</a> - <a href="#">Aktuelles zu Gokart</a>
-         - <a href="#">Aktuelles zu Lasertag</a> - <a href="#">Aktuelles zu Paintball</a></p>
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="footer-head"></div>
+            </div>
+            <div class="col-xs-6">
+              <div class="footer-copyright">
+              created 2013 by Binärpiloten
+              </div>
+            </div>
+             <div class="col-xs-3">
+              <div class="footer-kategorien">
+              KATEGORIEN
+              <div class="list-group">
+                <a href="#" class="list-group-item">Freizeit</a>
+                <a href="#" class="list-group-item">Events</a>
+                <a href="#" class="list-group-item">Angebote</a>
+              </div>
+              </div>
+            </div>
+             <div class="col-xs-3">
+              <div class="footer-allgemein">
+              ALLGEMEIN
+                <div class="list-group">
+                <a href="#" class="list-group-item">Impressum</a>
+                <a href="#" class="list-group-item">Kontakt</a>
+                <a href="#" class="list-group-item">AGB</a>
+              </div>
+              </div>
+            </div>
+          </div>
       </div>
     </div>
 
